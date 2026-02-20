@@ -5,6 +5,21 @@ All notable changes to Lumia Portal are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.02] - 2026-02-20
+
+_Credit scoring and permissioned tokens_
+
+### Added
+
+- **backend** — Credit score data is available through the API and surfaced on the user's profile
+- **backend** — Support for permissioned ERC-3643 tokens, allowing regulated assets with transfer restrictions
+- **frontend** — Credit score is shown in the interface alongside the tokenization entry point
+
+### Fixed
+
+- **frontend** — Asset prices returned by the oracle are no longer displayed incorrectly
+- **backend** — Transactions that previously failed during submission now complete
+
 ## [2025.12] - 2025-12-19
 
 _Identity verification and dashboard rework_
