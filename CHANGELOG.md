@@ -5,6 +5,20 @@ All notable changes to Lumia Portal are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.03] - 2026-03-27
+
+_Security tokens and multisig wallets_
+
+### Added
+
+- **backend** — Support for ERC-1400 security tokens, covering both tokenized real-world assets and offerings
+- **frontend** — Multisig wallets can be used to sign and submit transactions
+- **admin** — Operators can create and manage ERC-1400 assets and their offerings
+
+### Changed
+
+- **backend** — Identity verification reworked to run independently of the previous wallet identity provider
+
 ## [2026.02] - 2026-02-20
 
 _Credit scoring and permissioned tokens_
