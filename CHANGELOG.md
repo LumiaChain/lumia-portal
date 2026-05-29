@@ -5,6 +5,34 @@ All notable changes to Lumia Portal are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.05] - 2026-05-29
+
+_Order flow rebuilt, live pricing, operator analytics_
+
+### Added
+
+- **frontend** — New order placement flow with a step-by-step progress view and clearer trade URLs
+- **frontend** — Several orders can be submitted in a single batch transaction
+- **backend** — Market prices stream to connected clients in real time instead of being polled
+- **admin** — Order analytics dashboard with per-status counts, health cards, a needs-attention filter and pagination
+- **admin** — Order detail view shows an on-chain event timeline, a change log and the settlement transaction
+- **admin** — Liquidity pool deposits and withdrawals are handled as separate operations
+
+### Changed
+
+- **frontend** — Sidebar navigation redesigned
+- **backend** — The platform was migrated to TypeScript end to end, tightening the contracts between services
+
+### Fixed
+
+- **backend** — Settlement contract updates are applied correctly, and user names are stored as entered
+- **frontend** — The status timeline no longer keeps spinning after an order completes
+
+### Security
+
+- **backend** — On-chain order event processing hardened with identity verification
+- **backend** — Service secrets are held in a dedicated vault
+
 ## [2026.03] - 2026-03-27
 
 _Security tokens and multisig wallets_
