@@ -5,6 +5,28 @@ All notable changes to Lumia Portal are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.06] - 2026-06-23
+
+_AI market news and a redesigned trading view_
+
+### Added
+
+- **backend** — AI-assisted market news pipeline that ingests sources, categorises stories and attaches market metrics
+- **frontend** — News feed showing categorised stories with their original sources and related market data
+- **frontend** — Portfolio-aware news sections highlighting the assets a story affects
+- **backend** — API for gold-backed assets
+
+### Changed
+
+- **frontend** — Trade assets page redesigned with a card view, issuer attribution and order creation moved into a modal
+- **backend** — Uploaded media and documents moved to object storage
+- **backend** — Identity verification migrated to EmbarkAI
+
+### Fixed
+
+- **frontend** — The dashboard returns to the top of the page when navigating between sections
+- **admin** — Verification status is displayed correctly for all account states
+
 ## [2026.05] - 2026-05-29
 
 _Order flow rebuilt, live pricing, operator analytics_
