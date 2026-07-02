@@ -5,6 +5,15 @@ All notable changes to Lumia Portal are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.07] - 2026-07-02
+
+_Illustrated news items_
+
+### Added
+
+- **backend** — News items are generated with their own illustrations instead of a shared placeholder
+- **frontend** — Generated illustrations are shown in the news feed
+
 ## [2026.06] - 2026-06-23
 
 _AI market news and a redesigned trading view_
