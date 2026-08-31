@@ -5,6 +5,19 @@ All notable changes to Lumia Portal are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.08] - 2026-08-31
+
+_Central chain registry_
+
+### Changed
+
+- **backend** — Network names, RPC endpoints and explorer links are resolved from a single chain registry keyed by chain id, so adding a network no longer means touching each service
+- **frontend** — The interface takes its network details from the same chain registry as the services behind it
+
+### Fixed
+
+- **frontend** — Explorer links resolve correctly on every supported network
+
 ## [2026.07] - 2026-07-02
 
 _Illustrated news items_
