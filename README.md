@@ -6,6 +6,13 @@
   Lumia Portal
 </h1>
 
+> [!NOTE]
+> **This repository is generated and contains no source code.**
+> It exists to publish the release history of Lumia Portal. `CHANGELOG.md` is written by an
+> automated job from the private repositories the product is built in — edits made here by
+> hand are overwritten on the next run. Issues and discussions are read and answered; pull
+> requests against this repository are closed unfixed.
+
 Lumia Portal is the gateway to the Lumia ecosystem — a single place to reach the Lumia
 Foundation's offerings: real-world asset tokenization, identity verification, wallet
 management, cross-chain transfers, market data and ecosystem news.
