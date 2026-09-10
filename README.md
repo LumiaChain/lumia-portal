@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/lumia-mark-dark.svg">
+  <img alt="" src="./assets/lumia-mark-light.svg" height="44" align="left">
+</picture>
+
 # Lumia Portal
 
 Lumia Portal is the gateway to the Lumia ecosystem — a single place to reach the Lumia
