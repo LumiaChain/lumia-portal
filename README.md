@@ -1,9 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/lumia-mark-dark.svg">
-  <img alt="" src="./assets/lumia-mark-light.svg" height="40">
-</picture>
-
-# Lumia Portal
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/lumia-mark-dark.svg">
+    <img alt="" src="./assets/lumia-mark-light.svg" height="26">
+  </picture>
+  Lumia Portal
+</h1>
 
 Lumia Portal is the gateway to the Lumia ecosystem — a single place to reach the Lumia
 Foundation's offerings: real-world asset tokenization, identity verification, wallet
